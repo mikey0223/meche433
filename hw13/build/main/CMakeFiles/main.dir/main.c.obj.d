@@ -54,7 +54,7 @@ main/CMakeFiles/main.dir/main.c.obj: \
  /home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
  /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
  /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
  /home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \

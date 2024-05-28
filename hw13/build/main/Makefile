@@ -1528,77 +1528,29 @@ home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio
 	cd /home/michael/northwesternCourses/mech433/pico/pico-examples && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/main.dir/build.make main/CMakeFiles/main.dir/home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
+home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
 
 # target to build an object file
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
-	cd /home/michael/northwesternCourses/mech433/pico/pico-examples && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/main.dir/build.make main/CMakeFiles/main.dir/home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	cd /home/michael/northwesternCourses/mech433/pico/pico-examples && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/main.dir/build.make main/CMakeFiles/main.dir/home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
-
-# target to preprocess a source file
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	cd /home/michael/northwesternCourses/mech433/pico/pico-examples && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/main.dir/build.make main/CMakeFiles/main.dir/home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
-
-# target to generate assembly for a file
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	cd /home/michael/northwesternCourses/mech433/pico/pico-examples && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/main.dir/build.make main/CMakeFiles/main.dir/home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
-
-# target to build an object file
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
-	cd /home/michael/northwesternCourses/mech433/pico/pico-examples && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/main.dir/build.make main/CMakeFiles/main.dir/home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
 
 # target to preprocess a source file
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	cd /home/michael/northwesternCourses/mech433/pico/pico-examples && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/main.dir/build.make main/CMakeFiles/main.dir/home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	cd /home/michael/northwesternCourses/mech433/pico/pico-examples && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/main.dir/build.make main/CMakeFiles/main.dir/home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
-
-# target to generate assembly for a file
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	cd /home/michael/northwesternCourses/mech433/pico/pico-examples && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/main.dir/build.make main/CMakeFiles/main.dir/home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
-
-# target to build an object file
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
-	cd /home/michael/northwesternCourses/mech433/pico/pico-examples && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/main.dir/build.make main/CMakeFiles/main.dir/home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
-
-# target to preprocess a source file
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	cd /home/michael/northwesternCourses/mech433/pico/pico-examples && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/main.dir/build.make main/CMakeFiles/main.dir/home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
 
 # target to generate assembly for a file
-home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	cd /home/michael/northwesternCourses/mech433/pico/pico-examples && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/main.dir/build.make main/CMakeFiles/main.dir/home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	cd /home/michael/northwesternCourses/mech433/pico/pico-examples && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/main.dir/build.make main/CMakeFiles/main.dir/home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
@@ -1879,15 +1831,9 @@ help:
 	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
-	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
-	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
-	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
-	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
-	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
-	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
-	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
-	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
+	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
+	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
 	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... home/michael/northwesternCourses/mech433/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"

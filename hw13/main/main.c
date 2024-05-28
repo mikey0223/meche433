@@ -35,6 +35,36 @@ static uint32_t blink_interval_ms = BLINK_NOT_MOUNTED;
 void led_blinking_task(void);
 void hid_task(void);
 
+// config registers
+#define CONFIG 0x1A
+#define GYRO_CONFIG 0x1B
+#define ACCEL_CONFIG 0x1C
+#define PWR_MGMT_1 0x6B
+#define PWR_MGMT_2 0x6C
+// sensor data registers:
+#define ACCEL_XOUT_H 0x3B
+#define ACCEL_XOUT_L 0x3C
+#define ACCEL_YOUT_H 0x3D
+#define ACCEL_YOUT_L 0x3E
+#define ACCEL_ZOUT_H 0x3F
+#define ACCEL_ZOUT_L 0x40
+#define TEMP_OUT_H   0x41
+#define TEMP_OUT_L   0x42
+#define GYRO_XOUT_H  0x43
+#define GYRO_XOUT_L  0x44
+#define GYRO_YOUT_H  0x45
+#define GYRO_YOUT_L  0x46
+#define GYRO_ZOUT_H  0x47
+#define GYRO_ZOUT_L  0x48
+#define WHO_AM_I     0x75
+
+#define CHIP_ADDRESS 0x68 
+
+void get_data(int16_t data_out[7]);
+
+volatile int16_t z_data = 0;
+
+
 // /*------------- MAIN -------------*/
 // int main(void)
 // {
@@ -115,8 +145,12 @@ static void send_hid_report(uint8_t report_id, uint32_t btn)
 
     case REPORT_ID_MOUSE:
     {
-      int8_t const delta = 50;
 
+      int8_t delta = 50;
+      if (z_data < 0){
+
+        delta *=-1;
+      }
       // no button, right + down, no scroll, no pan
 
       tud_hid_mouse_report(REPORT_ID_MOUSE, 0x00, delta, delta, 0, 0);
@@ -289,34 +323,6 @@ void led_blinking_task(void)
 
 
 
-// config registers
-#define CONFIG 0x1A
-#define GYRO_CONFIG 0x1B
-#define ACCEL_CONFIG 0x1C
-#define PWR_MGMT_1 0x6B
-#define PWR_MGMT_2 0x6C
-// sensor data registers:
-#define ACCEL_XOUT_H 0x3B
-#define ACCEL_XOUT_L 0x3C
-#define ACCEL_YOUT_H 0x3D
-#define ACCEL_YOUT_L 0x3E
-#define ACCEL_ZOUT_H 0x3F
-#define ACCEL_ZOUT_L 0x40
-#define TEMP_OUT_H   0x41
-#define TEMP_OUT_L   0x42
-#define GYRO_XOUT_H  0x43
-#define GYRO_XOUT_L  0x44
-#define GYRO_YOUT_H  0x45
-#define GYRO_YOUT_L  0x46
-#define GYRO_ZOUT_H  0x47
-#define GYRO_ZOUT_L  0x48
-#define WHO_AM_I     0x75
-
-#define CHIP_ADDRESS 0x68 
-
-void get_data(int16_t data_out[7]);
-
-volatile int16_t z_data = 0;
 
 int main() {
     stdio_init_all();
