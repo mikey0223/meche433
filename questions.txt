@@ -1,4 +1,0 @@
-For hw9: What code off the zero? Isn't it just copy paste? Did i do that correctly
-For DSP: Are the final graphs ok? They look off
-For camera: What are we turning in for that?
-For mouse: idk, the mouse interface is not working on my machine.
